@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #dce6f2;
+  color: #222;
+}
+
+h1 {
+  margin: 0;
+  color: #1f3a5f;
+  font-size: 34px;
+}
+
+.profile-pic {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #1f3a5f;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+fieldset {
+  background-color: #ffffff !important;
+  border: 2px solid #1f3a5f !important;
+  border-radius: 10px !important;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+fieldset fieldset {
+  background-color: #f0f5fb !important;
+  border: 1px solid #8aa4c8 !important;
+}
+
+legend {
+  background-color: #1f3a5f;
+  color: #ffffff !important;
+  padding: 4px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+fieldset fieldset legend {
+  background-color: #3c6ea8;
+}
+
+a {
+  color: #0b66c3;
+}
+
+a:hover {
+  color: #1f3a5f;
+}
